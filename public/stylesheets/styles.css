@@ -1,0 +1,615 @@
+:root {
+    --lineSeparation: #00000029;
+}
+@font-face{
+    font-family:initial;
+    font-family: "Personalizado";
+    src: url(/fuente/tommy.otf);
+}
+.Formacion{
+    position:absolute;
+    left:8px;
+    top: 298px;
+    height:0;
+}
+.--sobremi{
+    position:absolute;
+    left:10px;
+    top: 883px;
+}
+.--exp{
+    position:absolute;
+    left:8px;
+    top: 747px;
+}
+.destrezas{
+    position:absolute;
+    left:8px;
+    top: 196px;
+    display: block;
+    height: 0;
+
+}
+.posicionamientos{
+    position: absolute;
+    top:900px;
+}
+
+.linea3 {
+    position:relative;
+    left:37px; 
+    top:155px;
+    width: 116%;
+    border: 1px solid var(--lineSeparation);
+}
+.sobre{
+    text-align: justify;
+    width: 326px;
+}
+body{
+    background-image: url("/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    overflow-x:hidden;
+    font-family:"Personalizado";
+}
+
+.verificacion-captcha{
+    background-color: rgb(52, 187, 199);
+    color: white;
+    position: relative;
+    top: -891px;
+    left:39px;
+    opacity: 0;
+    border-radius: 8px;
+    padding: 0px 5px 10px 7px;
+    height: 30px;
+    font-size:16px;
+    transition: all .5s;
+    box-shadow: 0px 3px 11px #b3b2b2;
+}
+
+.verificacion-captcha p{
+    padding-top: 10px;
+    }
+
+.verificacion-captcha.great{
+    position:relative;
+    top:-950px;
+    left:24px;
+    opacity: 0;
+    transition: all .5s;
+    padding-left: 0px;
+    padding-right: 9px;
+    box-shadow: 0px 3px 11px #b3b2b2;
+}
+.verificacion-captcha.great p{
+    font-size:16px;
+    padding-left: 8px;
+
+}
+.linea {
+    position:relative;
+    left:0px; 
+    top:100px;
+    width: 90%;
+    border: 1px solid var(--lineSeparation);
+}
+.linea1 {
+    position:relative;
+    left:38px; 
+    top:120px;
+    width: 42.5%;
+    border: 1px solid var(--lineSeparation);
+}
+.linea11{
+    border: 1px solid var(--lineSeparation);
+    position:relative;
+    top:5px;
+}
+.textos{
+    position: relative;
+    width: 326px;
+    top:19px;
+    text-align: justify;
+    font-size:15px
+    
+}
+.titulo {
+    font-size: 50px;
+    color:#34bbc7;
+    position:relative; 
+    left:255px; 
+    top:105px;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#contenedor{
+    width:  800px;
+    height: 1600px;
+    background:rgb(238, 238, 238);
+    margin:0 auto;
+    padding:0.5em;
+    position:relative;
+    left:-1px;
+    overflow:hidden;
+    border-radius:36px;
+}
+
+#contenido{
+    position:relative;
+    width: 780px;
+    height: 38px;
+    background-color: #34bbc7;
+    border-radius: 1em;
+    left: 10px;
+    top:100px;
+    border: solid 3.5px white;
+}
+#contenido1{
+    position:relative;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(52, 187, 199);
+    border-radius: 1em;
+    left: 450px;
+    top:100px
+}
+.logo{
+    display: flex;
+    position:relative;
+}   
+
+.logo img{
+    position:relative; 
+    left:65px; 
+    top:7px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 24px;
+    overflow:hidden;
+
+}
+.email{
+    position:relative;
+    left:70px; 
+    top:4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 24px;
+    color:white;
+    font-size: 24px;
+}
+.telefono{
+    position:relative;
+    left:240px; 
+    top:11px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 24px;
+    color:white;
+    font-size: 21px;
+}
+
+
+.logo2 img{
+    position: relative;
+    left: 452px;
+    top: -17px;
+    height: 24px;
+    display: block;
+}
+.logo3 img{
+    position:absolute; 
+    left:75px;
+    height: 27px;
+}
+.logo4 img{
+    position:absolute; 
+    left:103px;
+    top:219px;
+    height: 27px;
+}
+
+.logo5 img{
+    position:absolute; 
+    left:48px;
+    height: 27px;
+}
+.logo6 img{
+    position:relative; 
+    left:33px;
+    height: 29px;
+    top:50px;
+}
+.habilidades1{
+    position: relative;
+    top:-73px
+}
+.habilidade{
+    position: relative;
+    top:1px;
+}
+.habilidades2{
+    position: relative;
+    top:-46px
+}
+.habilidadess{
+    position: relative;
+    top:-36px
+}
+.bandidas{
+    position:relative;
+    top:-46px
+}
+.logo7 img{
+    position:absolute; 
+    left:64px;
+    height: 27px;
+    top:105px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo8 img{
+    position:absolute; 
+    left:35px; 
+    top:366px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 27px;
+}
+.logo9 img{
+    position:absolute; 
+    left:35px; 
+    top:400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 27px;
+}
+.logo10 img{
+    position:absolute; 
+    left:40px; 
+    top:5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height:190px;
+}
+.logo11 img{
+    position:absolute; 
+    left:0px; 
+    top:-30px;
+
+    height:900px;
+    width:816px;
+}
+.logo12 img{
+    position: relative;
+    height: 36px;
+    top:-57px;
+    left:104px
+}
+.__pos{
+    position: relative;
+    top:300px;
+}
+.logo13 img{
+    position: relative;
+    height: 27px;
+    left:102px;
+    top:2px
+}
+.telefono{
+    position: relative;
+    left: 480px;
+    top: -42px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+.datos{
+    font-size: 50px;
+    color:rgb(52, 187, 199);
+    position:relative; 
+    left:37px; 
+    top:120px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.DatosPersonales{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:37px; 
+    top:120px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.formacionacademica{
+    font-size: 50px;
+    color:rgb(52, 187, 199);
+    position:relative; 
+    left:37px; 
+    top:155px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.yo{
+    font-size: 20px;
+    color:rgb(52, 187, 199);
+    position:relative;
+    top:10px
+    
+}
+.PosDres{
+    position: relative;
+    top:-8px
+}
+.experiencia{
+    font-size: 50px;
+    color:rgb(52, 187, 199);
+    position:relative; 
+    left:37px; 
+    top:-280px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Inicioexp{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:36px; 
+    top:-272px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.controlventas{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:207px; 
+    top:-291.1px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.empresa{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:145px; 
+    top:-283px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bandidas2{
+    position:relative;
+    top:-60px;
+    left:-35px
+}
+.sobremi{
+    font-size: 50px;
+    color:rgb(52, 187, 199);
+    position:relative; 
+    left:37px; 
+    top:-280px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sobre{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:36px; 
+    top:-268px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.linea6{
+    position:relative;
+    left:38px; 
+    top:-276px;
+    width: 100%;
+    border: 1px solid var(--lineSeparation);
+    
+}
+.linea5 {
+    position:relative;
+    left:38px; 
+    top:-277px;
+    width: 150%;
+    border: 1px solid var(--lineSeparation);
+}  
+.FormacionAcademica{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:37px; 
+    top:155px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Bachiller{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:250px; 
+    top:136px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.Instituto{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:84px; 
+    top:160px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.Cursante{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:37px; 
+    top:180px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Progreso{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:175px; 
+    top:161px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Universidad{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:170px; 
+    top:146px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Redes1{
+    position:absolute;
+    left:410px;
+    top: -46.4px;
+}
+.Habilidad{
+    font-size: 50px;
+    color:rgb(52, 187, 199);
+    position:relative; 
+    left:441px; 
+    top:198px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Redes{
+    border-bottom-width: 333333%;
+    color:rgb(52, 187, 199);
+    position:relative; 
+    left:38px; 
+    top:326px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.linea8{
+    position:relative;
+    left:38px; 
+    top:324.8px;
+    width: 210%;
+    border: 1px solid var(--lineSeparation);
+}
+.linea4{
+    position:relative;
+    left:441px; 
+    top:197px;
+    width: 131%;
+    border: 1px solid var(--lineSeparation);
+    }
+
+.Facebook{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 67px;
+    top: 330px;
+    display: block;
+}
+    
+.Twitter{
+    color:rgb(0, 0, 0);
+    position:relative; 
+    left:64px; 
+    top:325px;
+    font-size: 17px;
+    display: block;
+}
+/* Barra de porcentaje,para que no se me pierda. */
+
+.habilidades{
+    width: 100%;
+    max-width: 250px;
+    padding: 3 20px;
+    position:relative; 
+    left:440px; 
+    top:190px;
+}
+
+.Frontend{
+    font-size:18px;
+    position:relative;
+    top:8px;
+}
+.multimedia{
+    font-size:18px;
+}
+
+.Backend{
+    font-size:18px;
+    position:relative;
+    top:1px;
+}
+
+.Base{
+    font-size:18px
+}
+.nombre{
+    font-size:18px;
+    font-weight: 700;
+    color: rgb(52, 187, 199);
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.barra{
+    height: 8px;
+    width:330px;
+    background-color: #282828;
+    border-radius: 443px
+}
+.barra1{
+    height: 8px;
+    background: #34bbc7;
+    border-radius: 10px;
+    position:relative;
+    animation: fillBars 4.2s 1;
+
+}
+
+
+@keyframes fillBars{
+    from{
+        width:0;
+    }
+    to{
+        width:100%;
+    }
+}
