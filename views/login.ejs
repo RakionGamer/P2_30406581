@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/styleLogin.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <% if (errores.length > 0) { %>
+      <div class="error-login">
+      <p><%= errores %>
+      </p>
+    </div>
+  <% }%>
+  <div class="container">
+    <div class="form sign-in-container">
+      <form action="/login" method="POST">
+        <h1>¡Bienvenido!</h1>
+        <div class="social-container">
+          <!--<a href="/facebook"><i class="fab fa-facebook"></i>Iniciar sesión con Facebook</a>-->
+          <a href="/google"><i class="fab fa-google"></i>Iniciar sesión con Google</a>
+          <!--<a href="/github"><i class="fab fa-github"></i>Iniciar sesión con Github</a>-->
+        </div>
+	<label class="lb user">Usuario</label>
+        <input type="name" name="name" placeholder="Ingresa tu usuario" value="<%=get.name%>" required>
+	<label class="lb">Contraseña</label>
+        <input type="password" name="password" placeholder="Ingresa tu contraseña" value="<%=get.password%>" required>
+        <button>Iniciar sesión</button>
+      </form>
+    </div>
+  <aside>
+    <a href="/">Ir al curriculum</a>
+</aside>
+  <footer class="footer">
+    <p>Copyright ©2022 - RakionGamer</p>
+  </footer>
+  <!--SweetAlert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <% if(alert) { %>
+      <script>
+      Swal.fire({
+        title: '<%= alertTitle %>',
+        text:'<%= alertMessage %>',
+        icon:'<%= alertIcon %>',
+        showConfirmButton: <%= showConfirmButton %>,
+        timer: <%= timer %>
+      }).then(()=>{
+        window.location = '/<%= ruta %>'
+      })
+    </script>
+  <% } %>
+  </body>
+</html>
